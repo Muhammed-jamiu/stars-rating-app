@@ -1,3 +1,15 @@
-div {
-  color: red;
+/* StarRating.css */
+.star-rating {
+  display: flex;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 24px;
+  color: #ffd700;
+  margin: 0 2px;
+}
+
+.star.active {
+  color: #ffcc00;
 }
